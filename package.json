@@ -1,5 +1,5 @@
 {
-	"name": "usevibrant",
+	"name": "use-vibrant",
 	"version": "1.0.1",
 	"description": "A react hooks binding for the node-vibrant library",
 	"main": "index.js",
