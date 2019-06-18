@@ -19,7 +19,7 @@ export default MyCoolComponent({imageUrl}) {
     const { colors, done } = useVibrant(imageUrl);
 
     return (
-        done && <div style={{backgroundColor: colors.Vibrant.hex, width: '100px', height: '100px' }}>
+        done && <div style={{backgroundColor: colors.Vibrant.hex, width: '100px', height: '100px' }} />
     );
 }
 ```
