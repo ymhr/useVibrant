@@ -1,0 +1,17 @@
+{
+	"name": "useVibrant",
+	"version": "1.0.0",
+	"description": "A react hooks binding for the node-vibrant library",
+	"main": "index.js",
+	"scripts": {
+		"test": ""
+	},
+	"author": "James Martin",
+	"license": "ISC",
+	"peerDependencies": {
+		"react": "^16.8.6"
+	},
+	"dependencies": {
+		"node-vibrant": "^3.1.3"
+	}
+}
