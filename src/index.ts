@@ -5,7 +5,7 @@ import { Palette } from "node-vibrant/lib/color";
 const cache: { [url: string]: Palette } = {};
 
 export default function useVibrant(
-  url: string
+  url: string | null
 ): { colors: Palette; done: boolean } {
   const [colors, setColors] = React.useState<Palette>({});
   const [done, setDone] = React.useState<boolean>(false);
