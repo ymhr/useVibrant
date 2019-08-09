@@ -21,6 +21,7 @@ export default function useVibrant(
     if (cache[urlString]) {
       setColors(cache[urlString]);
       setDone(true);
+      return;
     }
 
     Vibrant.from(url)
